@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math Drop-In.html" afterPath="$PROJECT_DIR$/Math Drop-In.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math ETC.html" afterPath="$PROJECT_DIR$/Math ETC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Non-MathETCV2.html" afterPath="$PROJECT_DIR$/Non-MathETCV2.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Non-MathETCV2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Non-MathETCV2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Non-MathETCV2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="1966" column="57" selection-start-line="1966" selection-start-column="57" selection-end-line="1966" selection-end-column="57" />
+            <state relative-caret-position="398">
+              <caret line="2038" column="10" selection-start-line="2038" selection-start-column="10" selection-end-line="2038" selection-end-column="10" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -60,7 +57,6 @@
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Math ETC.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Math ETC.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Math ETC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="2316" column="0" selection-start-line="2316" selection-start-column="0" selection-end-line="2316" selection-end-column="0" />
+            <state relative-caret-position="1101">
+              <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -100,7 +96,6 @@
                 <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#11;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,9 +141,9 @@
         <option value="$PROJECT_DIR$/css/MathETCCSS.css" />
         <option value="$PROJECT_DIR$/css/NonMathETCCSS.css" />
         <option value="$PROJECT_DIR$/css/Non-MathDropIn.css" />
-        <option value="$PROJECT_DIR$/Math ETC.html" />
         <option value="$PROJECT_DIR$/Math Drop-In.html" />
         <option value="$PROJECT_DIR$/Non-MathETCV2.html" />
+        <option value="$PROJECT_DIR$/Math ETC.html" />
       </list>
     </option>
   </component>
@@ -350,7 +345,7 @@
       <workItem from="1489558097798" duration="991000" />
       <workItem from="1489601586762" duration="3948000" />
       <workItem from="1489606133466" duration="827000" />
-      <workItem from="1489609741903" duration="2475000" />
+      <workItem from="1489609741903" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -370,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193378000" />
+    <option name="totallyTimeSpent" value="194440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -756,27 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Math ETC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="2316" column="0" selection-start-line="2316" selection-start-column="0" selection-end-line="2316" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Math Drop-In.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -794,8 +768,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Non-MathETCV2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="1966" column="57" selection-start-line="1966" selection-start-column="57" selection-end-line="1966" selection-end-column="57" />
+        <state relative-caret-position="398">
+          <caret line="2038" column="10" selection-start-line="2038" selection-start-column="10" selection-end-line="2038" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math ETC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -804,6 +793,10 @@
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#10;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
