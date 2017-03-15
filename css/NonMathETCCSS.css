@@ -6,7 +6,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-image: url('../img/2d.png');
+    background-color: #ac2925;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -160,7 +160,7 @@ hr.small {
 }
 
 .box{
-    background-color: #c0c0c0;
+    background-color: #ffffff;
 }
 
 /* About */

@@ -6,7 +6,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-image: url('../img/1c.png');
+    background-color: #67b168;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

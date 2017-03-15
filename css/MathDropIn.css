@@ -24,8 +24,8 @@ body {
     font-weight: 700;
     color: #ffffff;
 }
-.text-center h1 {
-    color: #ffffff;
+.box{
+    background-color: #ffffff;
 }
 
 /* Custom Button Styles */
