@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Non-Math Drop-In.html" afterPath="$PROJECT_DIR$/TemplatePages/Non-Math Drop-In.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GRASP.html" afterPath="$PROJECT_DIR$/GRASP.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math Drop-In.html" afterPath="$PROJECT_DIR$/Math Drop-In.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math ETC.html" afterPath="$PROJECT_DIR$/Math ETC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Non-MathETCV2.html" afterPath="$PROJECT_DIR$/Non-MathETCV2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PASS.html" afterPath="$PROJECT_DIR$/PASS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources.html" afterPath="$PROJECT_DIR$/Resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WRC.html" afterPath="$PROJECT_DIR$/WRC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MathDropIn.css" afterPath="$PROJECT_DIR$/css/MathDropIn.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
@@ -38,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+            <state relative-caret-position="202">
+              <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -54,6 +44,7 @@
                 <element signature="e#3293#3298#0" expanded="true" />
                 <element signature="e#3305#3310#0" expanded="true" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -316,7 +307,7 @@
       <workItem from="1489539509935" duration="1899000" />
       <workItem from="1489558097798" duration="991000" />
       <workItem from="1489601586762" duration="3948000" />
-      <workItem from="1489606133466" duration="85000" />
+      <workItem from="1489606133466" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -336,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190161000" />
+    <option name="totallyTimeSpent" value="190346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -718,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+        <state relative-caret-position="202">
+          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -734,6 +725,7 @@
             <element signature="e#3293#3298#0" expanded="true" />
             <element signature="e#3305#3310#0" expanded="true" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
