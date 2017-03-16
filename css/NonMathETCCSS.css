@@ -30,6 +30,10 @@ body {
     color: #ffffff;
 }
 
+.box {
+    background-color: #fff
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
