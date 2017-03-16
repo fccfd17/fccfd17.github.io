@@ -26,6 +26,10 @@ body {
     color: #ac2925;
 }
 
+.h1 {
+    color: #ffffff;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -157,10 +161,6 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.box{
-    background-color: #ffffff;
 }
 
 /* About */
