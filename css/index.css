@@ -36,7 +36,7 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .btn-dark:hover,
@@ -70,10 +70,10 @@ hr.small {
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    right: 0;
-    width: 250px;
+    top: 0;
+    left: 0;
+    width: 0px;
     height: 100%;
-    transform: translateX(250px);
     overflow-y: auto;
     background: #222;
     -webkit-transition: all 0.4s ease 0s;
@@ -84,8 +84,8 @@ hr.small {
 }
 
 .sidebar-nav {
-    position: absolute;
     top: 0;
+    left: 0;
     width: 250px;
     margin: 0;
     padding: 0;
@@ -100,7 +100,7 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {
@@ -121,7 +121,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: #fff;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -133,11 +133,12 @@ hr.small {
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 #sidebar-wrapper.active {
-    right: 250px;
+    top: 0;
+    left: 0;
     width: 250px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -156,7 +157,7 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 25%;
     background: url(../img/TCmockup3.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,32 +235,15 @@ hr.small {
 
 .callout {
     display: table;
+    position: relative;
     width: 100%;
-    height: 400px;
+    height: 25%;
     color: #ffffff;
-    background: url(../img/FrontDesk.png) no-repeat center center scroll;
+    background: url(../img/FrontDesk.png) no-repeat center center scroll ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
 }
 
 /* Call to Action */
