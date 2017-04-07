@@ -2,13 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Andrew.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Arron.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Carmen.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Casandra.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Celina.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Chris F.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Chris G.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Christine.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Claire.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Daniel.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/David.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Janie.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Jannel.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Jordyn.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Julian.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Kenia.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Maria.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Marissa.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Ruby.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Sandra.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Sidney.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Steven.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Suzanne.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Tyler.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Valerie.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Wesley.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ETCEdits/Zach.JPG" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MathDrop-InV2.html" afterPath="$PROJECT_DIR$/TemplatePages/MathDrop-InV2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math Drop-In.html" afterPath="$PROJECT_DIR$/Math Drop-In.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Math ETC.html" afterPath="$PROJECT_DIR$/Math ETC.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMDrop-InV2.html" afterPath="$PROJECT_DIR$/NMDrop-InV2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMETCV2.html" afterPath="$PROJECT_DIR$/NMETCV2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MathDropIn.css" afterPath="$PROJECT_DIR$/css/MathDropIn.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MathETCCSS.css" afterPath="$PROJECT_DIR$/css/MathETCCSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Non-MathDropIn.css" afterPath="$PROJECT_DIR$/css/Non-MathDropIn.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/NonMathETCCSS.css" afterPath="$PROJECT_DIR$/css/NonMathETCCSS.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,73 +64,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="NMETCV2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NMETCV2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3978">
-              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#13912#13917#0" expanded="true" />
-                <element signature="e#13921#13926#0" expanded="true" />
-                <element signature="e#13936#13941#0" expanded="true" />
-                <element signature="e#13965#13970#0" expanded="true" />
-                <element signature="e#13992#13997#0" expanded="true" />
-                <element signature="e#14004#14009#0" expanded="true" />
-                <element signature="e#14059#14064#0" expanded="true" />
-                <element signature="e#14067#14072#0" expanded="true" />
-                <element signature="e#14076#14081#0" expanded="true" />
-                <element signature="e#14088#14093#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="151" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathDropIn.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathETCCSS.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/MathETCCSS.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Non-MathDropIn.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Non-MathDropIn.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="156" column="1" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonMathETCCSS.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NonMathETCCSS.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/NonMathETCCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2618">
-              <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+            <state relative-caret-position="367">
+              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,19 +123,19 @@
         <option value="$PROJECT_DIR$/Resources.html" />
         <option value="$PROJECT_DIR$/WRC.html" />
         <option value="$PROJECT_DIR$/MathDrop-InV2.html" />
-        <option value="$PROJECT_DIR$/Math Drop-In.html" />
-        <option value="$PROJECT_DIR$/Math ETC.html" />
-        <option value="$PROJECT_DIR$/NMDrop-InV2.html" />
         <option value="$PROJECT_DIR$/Non-MathETCV2.html" />
         <option value="$PROJECT_DIR$/Non-Math ETC.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/NMETCV2.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/Non-MathDropIn.css" />
         <option value="$PROJECT_DIR$/css/MathDropIn.css" />
         <option value="$PROJECT_DIR$/css/MathETCCSS.css" />
-        <option value="$PROJECT_DIR$/css/Non-MathDropIn.css" />
+        <option value="$PROJECT_DIR$/NMDrop-InV2.html" />
+        <option value="$PROJECT_DIR$/Math Drop-In.html" />
+        <option value="$PROJECT_DIR$/Math ETC.html" />
+        <option value="$PROJECT_DIR$/NMETCV2.html" />
         <option value="$PROJECT_DIR$/css/NonMathETCCSS.css" />
       </list>
     </option>
@@ -188,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +227,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,13 +239,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\ETCEdits" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\TemplatePages" />
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\css" />
     </key>
@@ -387,7 +377,23 @@
       <workItem from="1489729702137" duration="92000" />
       <workItem from="1489797586613" duration="566000" />
       <workItem from="1489815544461" duration="6884000" />
-      <workItem from="1489905027921" duration="465000" />
+      <workItem from="1489905027921" duration="2069000" />
+      <workItem from="1489910914368" duration="1114000" />
+      <workItem from="1489968823932" duration="332000" />
+      <workItem from="1489995015718" duration="2951000" />
+      <workItem from="1490000158437" duration="40000" />
+      <workItem from="1490722534442" duration="779000" />
+      <workItem from="1490735656900" duration="37000" />
+      <workItem from="1491244886163" duration="2722000" />
+      <workItem from="1491261400978" duration="7161000" />
+      <workItem from="1491329615117" duration="5658000" />
+      <workItem from="1491336919881" duration="121000" />
+      <workItem from="1491351590179" duration="4792000" />
+      <workItem from="1491419599098" duration="2317000" />
+      <workItem from="1491428849964" duration="6617000" />
+      <workItem from="1491499851826" duration="8735000" />
+      <workItem from="1491510249451" duration="495000" />
+      <workItem from="1491523580019" duration="5293000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -407,10 +413,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214586000" />
+    <option name="totallyTimeSpent" value="265354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12445095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -483,14 +489,6 @@
     <entry file="file://$PROJECT_DIR$/Non-Math ETC.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Non-Math ETC.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -524,13 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="538" column="22" selection-start-line="538" selection-start-column="14" selection-end-line="538" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -624,39 +615,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Non-MathETCV2.html" />
-    <entry file="file://$PROJECT_DIR$/Math ETC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Non-Math ETC.html" />
-    <entry file="file://$PROJECT_DIR$/MathDrop-InV2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="525" column="0" selection-start-line="525" selection-start-column="0" selection-end-line="525" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/ETC.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math Drop-In.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="4879" column="50" selection-start-line="4879" selection-start-column="50" selection-end-line="4879" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NMDrop-InV2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -672,90 +635,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="4" column="66459" selection-start-line="4" selection-start-column="66459" selection-end-line="4" selection-end-column="66459" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="4040" column="23" selection-start-line="4040" selection-start-column="23" selection-end-line="4040" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NMETCV2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="2030" column="58" selection-start-line="2030" selection-start-column="58" selection-end-line="2030" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/banneredit.svg" />
     <entry file="file://$PROJECT_DIR$/img/FrontDesk.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="4168" column="19" selection-start-line="4168" selection-start-column="19" selection-end-line="4168" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MathETCCSS.css">
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="538" column="22" selection-start-line="538" selection-start-column="14" selection-end-line="538" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Non-MathDropIn.css">
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="156" column="1" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="183">
+          <caret line="3" column="15082" selection-start-line="3" selection-start-column="15078" selection-end-line="3" selection-end-column="15082" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="5" column="13154" selection-start-line="5" selection-start-column="13150" selection-end-line="5" selection-end-column="13154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="151" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="236">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#13912#13917#0" expanded="true" />
-            <element signature="e#13921#13926#0" expanded="true" />
-            <element signature="e#13936#13941#0" expanded="true" />
-            <element signature="e#13965#13970#0" expanded="true" />
-            <element signature="e#13992#13997#0" expanded="true" />
-            <element signature="e#14004#14009#0" expanded="true" />
-            <element signature="e#14059#14064#0" expanded="true" />
-            <element signature="e#14067#14072#0" expanded="true" />
-            <element signature="e#14076#14081#0" expanded="true" />
-            <element signature="e#14088#14093#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-85">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Non-MathDropIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplatePages/MathDrop-InV2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMDrop-InV2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math Drop-In.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math ETC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="48" column="88" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/MathETCCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="94280" selection-start-line="4" selection-start-column="94280" selection-end-line="4" selection-end-column="94280" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/NonMathETCCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+        <state relative-caret-position="367">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMETCV2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

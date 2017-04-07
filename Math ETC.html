@@ -32,57 +32,51 @@
 
 <body>
 <!-- Navigation -->
-
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-<nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand">
-            <a href="index.html" onclick=$("#menu-close").click();>FCCWise</a>
-        </li>
-        <li>
-            <a href="#Overview" onclick=$("#menu-close").click();>Overview</a>
-        </li>
-        <li>
-            <a href="#Math260" onclick=$("#menu-close").click();>Math 260</a>
-        </li>
-        <li>
-            <a href="#Math255" onclick=$("#menu-close").click();>Math 255</a>
-        </li>
-        <li>
-            <a href="#Math250" onclick=$("#menu-close").click();>Math 250</a>
-        </li>
-        <li>
-            <a href="#Math201" onclick=$("#menu-close").click();>Math 201</a>
-        </li>
-        <li>
-            <a href="#Math103" onclick=$("#menu-close").click();>Math 103</a>
-        </li>
-        <li>
-            <a href="#Math4A" onclick=$("#menu-close").click();>Math 4A</a>
-        </li>
-        <li>
-            <a href="#Math4B" onclick=$("#menu-close").click();>Math 4B</a>
-        </li>
-        <li>
-            <a href="#Math5B" onclick=$("#menu-close").click();>Math 5B</a>
-        </li>
-        <li>
-            <a href="#Math6" onclick=$("#menu-close").click();>Math 6</a>
-        </li>
-        <li>
-            <a href="#Math11" onclick=$("#menu-close").click();>Math 11</a>
-        </li>
-        <li>
-            <a href="#Math21" onclick=$("#menu-close").click();>Math 21</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-inverse" data-spy="affix">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">FCCTC</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Schedules
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#Math260">Math 260</a></li>
+                        <li><a href="#Math255">Math 255</a></li>
+                        <li><a href="#Math250">Math 250</a></li>
+                        <li><a href="#Math 201">Math 201</a></li>
+                        <li><a href="#Math103">Math 103</a></li>
+                        <li><a href="#Math4A">Math 4A</a></li>
+                        <li><a href="#Math4B">Math 4B</a></li>
+                        <li><a href="#Math5B">Math 5B</a></li>
+                        <li><a href="#Math6">Math 6</a></li>
+                        <li><a href="#Math11">Math 11</a></li>
+                        <li><a href="#Math21">Math 21</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact Info.</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
-<header id="MathETC" class="text-center container">
-    <div class="box">
-    <h1>Extending the Classroom</h1>
-    <h2>Math Sections</h2>
+<header id="MathETC" class="header text-center">
+    <div class="headerbox">
+        <h1>Extending the Classroom</h1>
+        <h2>Math Sections</h2>
     </div>
 </header>
 
@@ -102,17 +96,17 @@
         </div>
     </div>
 </section> -->
-<!-- Make sure with accordion that all data parents; accordion id's; collapse id's are properly unique and referenced -->
 
-<section id="Math260" class="container container-fluid">
+<!-- Make sure with accordion that all data parents; accordion id's; collapse id's are properly unique and referenced -->
+<section class="container container-fluid">
         <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 260 ABCD</h1>
+                <div class="col-lg-12">
+                    <div id="Math260" class="col-lg-4">
+                    <h1 class="headerbox text-center">Math 260 ABCD</h1>
                     <div class="panel-group" id="accordion0">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion0" href="#collapse01">
                                         Math 260 with Instructor Yang</a>
                                 </h4>
@@ -193,7 +187,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion0" href="#collapse02">
                                         Math 260 with Instructor Blackerby-Slater</a>
                                 </h4>
@@ -262,7 +256,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion0" href="#collapse03">
                                         Math 260 with Instructor Brandl</a>
                                 </h4>
@@ -331,87 +325,80 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
-
-<section id="Math255" class="container container-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 255</h1>
-                    <div class="panel-group" id="accordion1">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion1" href="#collapse11">
-                                        Math 255 with Instructor Avery</a>
-                                </h4>
-                            </div>
-                            <div id="collapse11" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                    <div id="Math255" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 255</h1>
+                        <div class="panel-group" id="accordion1">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse11">
+                                            Math 255 with Instructor Avery</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Sandra Basurto</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Sandra Basurto</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion1" href="#collapse12">
-                                        Math 255 with Instructor Bezerra-Nader</a>
-                                </h4>
-                            </div>
-                            <div id="collapse12" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse12">
+                                            Math 255 with Instructor Bezerra-Nader</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse12" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -420,60 +407,60 @@
                                                 <h4 class="media-heading">Sarah Cruz</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>04:30pm - 06:00pm</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>08:00am - 10:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>12:00pm - 01:00pm </td>
-                                                <td>S-150</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>01:00pm - 02:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>04:30pm - 06:00pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>08:00am - 10:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>12:00pm - 01:00pm </td>
+                                                    <td>S-150</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>01:00pm - 02:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion1" href="#collapse13">
-                                        Math 255 with Instructor Blackerby-Slater</a>
-                                </h4>
-                            </div>
-                            <div id="collapse13" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse13">
+                                            Math 255 with Instructor Blackerby-Slater</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse13" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -482,140 +469,133 @@
                                                 <h4 class="media-heading">Trisha Olson</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>04:30pm - 06:00pm</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>08:00am - 10:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>12:00pm - 01:00pm </td>
-                                                <td>S-150</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>01:00pm - 02:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>04:30pm - 06:00pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>08:00am - 10:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>12:00pm - 01:00pm </td>
+                                                    <td>S-150</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>01:00pm - 02:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Math250" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 250</h1>
+                        <div class="panel-group" id="accordion2">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
+                                            Math 250 with Instructor Bezerra-Nader</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse21" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Sarah Cruz</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
 </section>
 
-<section id="Math250" class="container container-fluid">
-          <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 250</h1>
-                    <div class="panel-group" id="accordion2">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
-                                        Math 250 with Instructor Bezerra-Nader</a>
-                                </h4>
-                            </div>
-                            <div id="collapse21" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Sarah Cruz</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-</section>
-
-<section id="Math201" class="container container-fluid">
+<section class="container container-fluid">
         <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 201</h1>
+                <div class="col-lg-12">
+                    <div id="Math201" class="col-lg-4">
+                    <h1 class="headerbox text-center">Math 201</h1>
                     <div class="panel-group" id="accordion3">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse31">
                                         Math 201 with Instructor Anderson</a>
                                 </h4>
@@ -677,7 +657,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32">
                                         Math 201 with Instructor Blackerby-Slater</a>
                                 </h4>
@@ -739,7 +719,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse33">
                                         Math 201 with Instructor Vidinoff</a>
                                 </h4>
@@ -801,7 +781,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse34">
                                         Math 201 with Instructor Ostrander</a>
                                 </h4>
@@ -863,7 +843,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse35">
                                         Math 201 with Instructor Stanton</a>
                                 </h4>
@@ -925,7 +905,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse36">
                                         Math 201 with Instructor Herren</a>
                                 </h4>
@@ -987,7 +967,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion3" href="#collapse37">
                                         Math 201 with Instructor Brandl</a>
                                 </h4>
@@ -1049,87 +1029,80 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
-
-<section id="Math103" class="container container-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 103</h1>
-                    <div class="panel-group" id="accordion4">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41">
-                                        Math 103 with Instructor Anderson</a>
-                                </h4>
-                            </div>
-                            <div id="collapse41" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                    <div id="Math103" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 103</h1>
+                        <div class="panel-group" id="accordion4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41">
+                                            Math 103 with Instructor Anderson</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse41" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Diana Aguilar</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Diana Aguilar</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse42">
-                                        Math 103 with Instructor Blackerby-Slater</a>
-                                </h4>
-                            </div>
-                            <div id="collapse42" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse42">
+                                            Math 103 with Instructor Blackerby-Slater</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse42" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1138,60 +1111,60 @@
                                                 <h4 class="media-heading">Tyrone Anderson</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>04:30pm - 06:00pm</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>08:00am - 10:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>12:00pm - 01:00pm </td>
-                                                <td>S-150</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>01:00pm - 02:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>04:30pm - 06:00pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>08:00am - 10:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>12:00pm - 01:00pm </td>
+                                                    <td>S-150</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>01:00pm - 02:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse43">
-                                        Math 103 with Instructor Avery</a>
-                                </h4>
-                            </div>
-                            <div id="collapse43" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse43">
+                                            Math 103 with Instructor Avery</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse43" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1200,60 +1173,60 @@
                                                 <h4 class="media-heading">Sandra Basurto</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse44">
-                                        Math 103 with Instructor Vidinoff</a>
-                                </h4>
-                            </div>
-                            <div id="collapse44" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse44">
+                                            Math 103 with Instructor Vidinoff</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse44" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1262,60 +1235,60 @@
                                                 <h4 class="media-heading">Brandon Burns</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse45">
-                                        Math 103 with Instructor Yang</a>
-                                </h4>
-                            </div>
-                            <div id="collapse45" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse45">
+                                            Math 103 with Instructor Yang</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse45" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1324,60 +1297,60 @@
                                                 <h4 class="media-heading">Randall Chevalier</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse46">
-                                        Math 103 with Instructor Stanton</a>
-                                </h4>
-                            </div>
-                            <div id="collapse46" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse46">
+                                            Math 103 with Instructor Stanton</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse46" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1386,60 +1359,60 @@
                                                 <h4 class="media-heading">Richard Flores</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse47">
-                                        Math 103 with Instructor Woods</a>
-                                </h4>
-                            </div>
-                            <div id="collapse47" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse47">
+                                            Math 103 with Instructor Woods</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse47" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1448,60 +1421,60 @@
                                                 <h4 class="media-heading">Jonah Lozano</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse48">
-                                        Math 103 with Instructor Allen</a>
-                                </h4>
-                            </div>
-                            <div id="collapse48" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse48">
+                                            Math 103 with Instructor Allen</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse48" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1510,60 +1483,60 @@
                                                 <h4 class="media-heading">Kyle Lumary</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse49">
-                                        Math 103 with Instructor Temmerman</a>
-                                </h4>
-                            </div>
-                            <div id="collapse49" class="panel-collapse collapse">
-                                <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion4" href="#collapse49">
+                                            Math 103 with Instructor Temmerman</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse49" class="panel-collapse collapse">
+                                    <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
                                                 <img src="img/testimg.jpg" class="media-object" style="width:150px">
@@ -1572,140 +1545,134 @@
                                                 <h4 class="media-heading">Stephen Ruby</h4>
                                                 <p></p>
                                             </div>
-                                        <table class="table table-responsive">
-                                            <thead>
-                                            <tr>
-                                                <th>Weekday</th>
-                                                <th>Times Available</th>
-                                                <th>Location</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>Monday</td>
-                                                <td>04:00pm - 05:30pm</td>
-                                                <td>S-160</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tuesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wednesday</td>
-                                                <td>N/A</td>
-                                                <td>N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thursday</td>
-                                                <td>03:30pm - 04:30pm</td>
-                                                <td>S-100</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Friday</td>
-                                                <td>08:30am-10:00am</td>
-                                                <td>S-280</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Saturday</td>
-                                                <td>09:00am - 11:00am</td>
-                                                <td>S-170</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>04:00pm - 05:30pm</td>
+                                                    <td>S-160</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>03:30pm - 04:30pm</td>
+                                                    <td>S-100</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>08:30am-10:00am</td>
+                                                    <td>S-280</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>09:00am - 11:00am</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-</section>
-
-<section id="Math4A" class="container container-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 4A</h1>
-                    <div class="panel-group" id="accordion5">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion5" href="#collapse51">
-                                        Math 4A with Instructor Allen</a>
-                                </h4>
-                            </div>
-                            <div id="collapse51" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                    <div id="Math4A" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 4A</h1>
+                        <div class="panel-group" id="accordion5">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse51">
+                                            Math 4A with Instructor Allen</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse51" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Kyle Lumary</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Kyle Lumary</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-        </div>
         </div>
 </section>
 
-<section id="Math4B" class="container container-fluid">
+<section class="container container-fluid">
         <div class="row">
             <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 4B</h1>
+                <div class="col-lg-12">
+                    <div id="Math4B" class="col-lg-4">
+                    <h1 class="headerbox text-center">Math 4B</h1>
                     <div class="panel-group" id="accordion6">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion6" href="#collapse61">
                                         Math 4B with Instructor 4B</a>
                                 </h4>
@@ -1767,7 +1734,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion6" href="#collapse62">
                                         Math 4B with Instructor Herren</a>
                                 </h4>
@@ -1829,74 +1796,136 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
-
-<section id="Math5B" class="container container-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 5B</h1>
-                    <div class="panel-group" id="accordion7">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion7" href="#collapse71">
-                                        Math 5B with Instructor Dorn</a>
-                                </h4>
+                    <div id="Math5B" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 5B</h1>
+                        <div class="panel-group" id="accordion7">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion7" href="#collapse71">
+                                            Math 5B with Instructor Dorn</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse71" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Edgar Juarez</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="collapse71" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                        </div>
+                    </div>
+                    <div id="Math6" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 6</h1>
+                        <div class="panel-group" id="accordion8">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion8" href="#collapse81">
+                                            Math 6 with Instructor Dorn</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse81" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Edgar Juarez</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Edgar Juarez</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1904,92 +1933,17 @@
                 </div>
             </div>
         </div>
-        </div>
 </section>
 
-<section id="Math6" class="container container-fluid">
+<section class="container container-fluid">
         <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 6</h1>
-                    <div class="panel-group" id="accordion8">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion8" href="#collapse81">
-                                       Math 6 with Instructor Dorn</a>
-                                </h4>
-                            </div>
-                            <div id="collapse81" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Edgar Juarez</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="Math11" class="container container-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 11</h1>
+                <div class="col-lg-12">
+                    <div id="Math11" class="col-lg-4">
+                    <h1 class="headerbox text-center">Math 11</h1>
                     <div class="panel-group" id="accordion9">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion9" href="#collapse91">
                                         Math 11 with Instructor Yang</a>
                                 </h4>
@@ -2051,7 +2005,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion9" href="#collapse92">
                                         Math 11 with Instructor McDonald</a>
                                 </h4>
@@ -2113,7 +2067,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
                                     <a data-toggle="collapse" data-parent="#accordion9" href="#collapse93">
                                         Math 11 with Instructor Anderson</a>
                                 </h4>
@@ -2175,81 +2129,75 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
-
-<section id="Math21" class="container conatiner-fluid">
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="text-center">Math 21</h1>
-                    <div class="panel-group" id="accordion10">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion10" href="#collapse101">
-                                        Math 21 with Instructor Herren</a>
-                                </h4>
-                            </div>
-                            <div id="collapse101" class="panel-collapse collapse input-group-lg">
-                                <div class="panel-body">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                    <div id="Math21" class="col-lg-4">
+                        <h1 class="headerbox text-center">Math 21</h1>
+                        <div class="panel-group" id="accordion10">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title text-center">
+                                        <a data-toggle="collapse" data-parent="#accordion10" href="#collapse101">
+                                            Math 21 with Instructor Herren</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse101" class="panel-collapse collapse input-group-lg">
+                                    <div class="panel-body">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Roberto Reyes</h4>
+                                                <p></p>
+                                            </div>
+                                            <table class="table table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Weekday</th>
+                                                    <th>Times Available</th>
+                                                    <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Monday</td>
+                                                    <td>03:00pm - 04:30pm</td>
+                                                    <td>S-170</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tuesday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>LI-103</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wednesday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Thursday</td>
+                                                    <td>11:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Friday</td>
+                                                    <td>10:00am-12:00pm</td>
+                                                    <td>S-230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Saturday</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="media-body">
-                                            <h4 class="media-heading">Roberto Reyes</h4>
-                                            <p></p>
-                                        </div>
-                                    <table class="table table-responsive">
-                                        <thead>
-                                        <tr>
-                                            <th>Weekday</th>
-                                            <th>Times Available</th>
-                                            <th>Location</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Monday</td>
-                                            <td>03:00pm - 04:30pm</td>
-                                            <td>S-170</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tuesday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>LI-103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Wednesday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Thursday</td>
-                                            <td>11:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Friday</td>
-                                            <td>10:00am-12:00pm</td>
-                                            <td>S-230</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Saturday</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-lg-4"></div>
             </div>
-        </div>
         </div>
 </section>
 
@@ -2324,6 +2272,51 @@
         }
     });
 </script>
-
+<!--
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="index.html" onclick=$("#menu-close").click();>FCCWise</a>
+        </li>
+        <li>
+            <a href="#Overview" onclick=$("#menu-close").click();>Overview</a>
+        </li>
+        <li>
+            <a href="#Math260" onclick=$("#menu-close").click();>Math 260</a>
+        </li>
+        <li>
+            <a href="#Math255" onclick=$("#menu-close").click();>Math 255</a>
+        </li>
+        <li>
+            <a href="#Math250" onclick=$("#menu-close").click();>Math 250</a>
+        </li>
+        <li>
+            <a href="#Math201" onclick=$("#menu-close").click();>Math 201</a>
+        </li>
+        <li>
+            <a href="#Math103" onclick=$("#menu-close").click();>Math 103</a>
+        </li>
+        <li>
+            <a href="#Math4A" onclick=$("#menu-close").click();>Math 4A</a>
+        </li>
+        <li>
+            <a href="#Math4B" onclick=$("#menu-close").click();>Math 4B</a>
+        </li>
+        <li>
+            <a href="#Math5B" onclick=$("#menu-close").click();>Math 5B</a>
+        </li>
+        <li>
+            <a href="#Math6" onclick=$("#menu-close").click();>Math 6</a>
+        </li>
+        <li>
+            <a href="#Math11" onclick=$("#menu-close").click();>Math 11</a>
+        </li>
+        <li>
+            <a href="#Math21" onclick=$("#menu-close").click();>Math 21</a>
+        </li>
+    </ul>
+</nav> -->
 </body>
 </html>

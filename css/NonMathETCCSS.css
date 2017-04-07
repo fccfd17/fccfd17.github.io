@@ -1,4 +1,9 @@
 html,
+header{
+    display: block;
+    margin: 30px auto;
+
+}
 body {
     width: 100%;
     height: 100%;
@@ -6,7 +11,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #ac2925;
+    background-color: #f9e4e3;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -31,8 +36,34 @@ body {
 }
 
 .box {
-    background-color: #fff
+    border: #ac2925 solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin: 10px auto;
 }
+
+.box >p:nth-child(1){
+    text-indent: 50px;
+}
+
+.headerbox{
+    background-color: #ac2925;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.media-body {
+    font-size: 20px;
+}
+
+
 
 /* Custom Button Styles */
 
@@ -89,15 +120,12 @@ body {
 /* Header */
 
 .header {
-    display: table;
+    display: inline;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/2a.png) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: no-repeat center center scroll;
+    background-color: #ac2925;
 }
 
 /* About */
@@ -130,49 +158,6 @@ body {
     -o-background-size: cover;
 }
 
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
 
 /* Footer */
 
