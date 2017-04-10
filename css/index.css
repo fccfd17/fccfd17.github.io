@@ -128,8 +128,14 @@ body {
     padding-bottom: 1px;
 }
 
-.redbox {
+.darkredbox {
     background-color: #ac2925;
+    color: #ffffff;
+    padding-bottom: 1px;
+}
+
+.aquabox {
+    background-color: #2ecc9c;
     color: #ffffff;
     padding-bottom: 1px;
 }
@@ -140,20 +146,14 @@ body {
     padding-bottom: 1px;
 }
 
-.redorangebox {
-    background-color: #ea320e;
+.brightredbox {
+    background-color: #ff0000;
     color: #ffffff;
     padding-bottom: 1px;
 }
 
-.purplebox {
-    background-color: #b00ad6;
-    color: #ffffff;
-    padding-bottom: 1px;
-}
-
-.lightbluebox {
-    background-color: #15b9ef;
+.rustorangebox {
+    background-color: #E2510D;
     color: #ffffff;
     padding-bottom: 1px;
 }
