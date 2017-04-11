@@ -13,7 +13,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/MathETCCSS.css" rel="stylesheet">
+    <link href="css/MathETC.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -45,26 +45,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Schedules
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#Math260">Math 260</a></li>
-                        <li><a href="#Math255">Math 255</a></li>
-                        <li><a href="#Math250">Math 250</a></li>
-                        <li><a href="#Math 201">Math 201</a></li>
-                        <li><a href="#Math103">Math 103</a></li>
-                        <li><a href="#Math4A">Math 4A</a></li>
-                        <li><a href="#Math4B">Math 4B</a></li>
-                        <li><a href="#Math5B">Math 5B</a></li>
-                        <li><a href="#Math6">Math 6</a></li>
-                        <li><a href="#Math11">Math 11</a></li>
-                        <li><a href="#Math21">Math 21</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact Info.</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a data-toggle="pill" href="#Schedules">Schedules</a></li>
+                <li><a data-toggle="pill" href="#Faculty">Faculty</a></li>
+                <li><a data-toggle="pill" href="#Mentors">Mentors</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -81,29 +65,33 @@
     </div>
 </header>
 
-
-<!-- <section id="Overview">
-    <div class="container container-fluid">
+<div class="tab-content">
+<div id="Schedules" class="tab-pane fade in active">
+<h1 class="headerbox container text-center">Heather Walker - Math Coordinator</h1>
+<section class="container container-fluid">
+    <div class="box">
         <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                        <h2 class="intro-text text-center"><strong>Overview</strong></h2>
-                    <hr>
-                    <p>Overview insert the paragraph here.</p>
-
+            <div class="col-lg-12">
+                <div class="col-lg-2">
+                    <img src="img/Math/heather.jpg" class="media-object img-rounded" style="width:150px">
+                </div>
+                <div class="col-lg-10">
+                    <p>"<strong>Extending the Class (ETC)</strong> provides students the space, guidance, and structure to successfully enhance their understanding of the course content. ETC provides weekly study sessions which are led by a student who has recently taken the class from the same instructor and received a high final course grade. Within ETC sessions, students actively engage with their peers from class on material provided by the ETC Leader (which includes helpful study guides, content-based worksheets, and effective practice exams). ETC sessions foster a positive learning environment which not only promotes what to learn, but also how to learn."</p>
+                    <p><strong>Extend YOUR learning beyond the class by attending ETC TODAY!</strong></p>
+                    <p><strong>Have a question or concern? Please contact me at </strong></p>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- Make sure with accordion that all data parents; accordion id's; collapse id's are properly unique and referenced -->
+<article>
 <section class="container container-fluid">
         <div class="row">
                 <div class="col-lg-12">
                     <div id="Math260" class="col-lg-4">
-                    <h1 class="headerbox text-center">Math 260 ABCD</h1>
+                    <h1 class="headerbox text-center">Math 260 A,B,C,D</h1>
                     <div class="panel-group" id="accordion0">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -1666,7 +1654,6 @@
 
 <section class="container container-fluid">
         <div class="row">
-            <div class="box">
                 <div class="col-lg-12">
                     <div id="Math4B" class="col-lg-4">
                     <h1 class="headerbox text-center">Math 4B</h1>
@@ -1931,7 +1918,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
 </section>
@@ -2201,6 +2187,15 @@
             </div>
         </div>
 </section>
+</article>
+</div>
+    <div id="Faculty" class="tab-pane fade">
+        <p>content</p>
+    </div>
+    <div id="Mentors" class="tab-pane fade">
+        <p>Some content in menu 1.</p>
+    </div>
+</div>
 
 <footer>
     <div class="container">
