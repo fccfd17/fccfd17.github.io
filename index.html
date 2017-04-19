@@ -20,6 +20,7 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,48 +37,48 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-
-    <nav class="navbar navbar-inverse" data-spy="affix">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">FCCTC</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#top">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact Info.</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-inverse" data-spy="affix">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">FCCTC</a>
         </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a data-toggle="pill" href="#Services">Services</a></li>
+                <li><a data-toggle="pill" href="#NetTutor">24/7 NetTutor</a></li>
+                <li><a data-toggle="pill" href="#ContactUs">Contact Us</a></li>
+                <li><a data-toggle="pill" href="#CareerCenter">Career Center</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
 
     <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Welcome!</h1>
-            <br>
-            <a href="#services" class="btn btn-dark btn-lg">Find Help!</a>
-        </div>
-    </header>
+<header id="Home" class="header text-center">
+    <div class="headerbox">
+        <h1>Tutorial Center</h1>
+        <h2>Fresno City College</h2>
+    </div>
+</header>
 
-    <section id="services" class="services">
+<article class="tab-content">
+    <section id="Services" class="services tab-pane fade in active">
         <div class="container container-fluid">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>On-Site Services</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -149,13 +150,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
+
         <div class="container container-fluid">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -179,19 +177,19 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="greybox">
+                            <div class="purplebox">
                                 <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <a href="NetTutor.html">
+                                <a href="Resources.html">
                                 <i class="fa fa-desktop fa-stack-1x text-primary"></i>
                                 </a>
                             </span>
                                     <h4>
-                                        <strong>Net Tutor</strong>
+                                        <strong>Resources</strong>
                                     </h4>
-                                    <p>24/7 Online Tutoring</p>
-                                    <a href="NetTutor.html" class="btn btn-light">Schedules</a>
+                                    <p>Information and Media Centers</p>
+                                    <a href="Resources.html" class="btn btn-light">Schedules</a>
                                 </div>
                             </div>
                         </div>
@@ -230,21 +228,39 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
     </section>
 
-    <section id="contact" class="container container-fluid">
+
+    <section id="NetTutor" class="tab-pane fade">
+    <h1 class="headerbox container text-center">24/7 NetTutor</h1>
+    <div class="container container-fluid">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-2">
+                        <img src="img/Math/heather.jpg" class="media-object img-rounded" style="width:150px">
+                    </div>
+                    <div class="col-lg-10">
+                        <p>"<strong>NetTutorConnect. Engage. Learn.</strong> </p>
+                        <p><strong>Extend YOUR learning beyond the class by attending ETC TODAY!</strong></p>
+                        <p><strong>Have a question or concern? Please contact me at </strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="ContactUs" class="container container-fluid tab-pane fade">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <br>
                 <h1>Hours and Contact Information</h1>
                 <div class="col-md-4 col-sm-6 text-center">
-                    <div class="bluebox">
+                    <div class="blackbox">
                         <h4><strong>Hours and Contact Information</strong>
                         </h4>
                         <p>1101 E. University Ave.
@@ -296,14 +312,13 @@
                 </div>
             </div>
         </div>
-    </section>
-    
-    <!-- Callout -->
-    <section class="callout container-fluid">
-    </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+
+    <!-- Callout -->
+    <div class="callout container-fluid">
+    </div>
+    </section>
+</article>
 
 
 

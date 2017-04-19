@@ -1,10 +1,10 @@
 html,
+
 header{
     display: block;
     margin: 30px auto;
 
 }
-
 body {
     width: 100%;
     height: 100%;
@@ -12,36 +12,30 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #ffdddd;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #ebc9fc;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: #ac2925;
-}
 
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-    color: #ac2925;
-}
-.box{
-    background-color: #ffffff;
+
+.box {
+    border: #ac21f2 solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin: 10px auto;
 }
 
 .headerbox{
-    background-color:#ff0000;
+    background-color:#ac21f2;
     border-radius: 25px;
     padding: 20px;
     color: white;
     font-family: 'Permanent Marker', cursive;
-
+    align-content: center;
 }
 
 /* Custom Button Styles */
@@ -78,7 +72,7 @@ hr.small {
     max-width: 100px;
 }
 
-/*Menu */
+/* Menu */
 
 body {
     position: relative;
@@ -105,7 +99,8 @@ body {
     width: 100%;
     height: 100%;
     background: no-repeat center center scroll;
-    background-color: #ff0000;
+    background-color: #f77802;
+    justify-items: center;
 }
 
 /* About */
@@ -138,33 +133,6 @@ body {
     -o-background-size: cover;
 }
 
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
 
 
 /* Footer */
