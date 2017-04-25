@@ -32,7 +32,15 @@ body {
     color: #ac2925;
 }
 .box{
-    background-color: #ffffff;
+    border: #ff0000 solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin: 10px auto;
 }
 
 .headerbox{
