@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMETC.html" afterPath="$PROJECT_DIR$/NMETC.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathDrop_In.html" afterPath="$PROJECT_DIR$/MathDrop_In.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathETC.html" afterPath="$PROJECT_DIR$/MathETC.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,29 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MathDropIn.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
+      <file leaf-file-name="MathDrop_In.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MathDrop_In.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NMETC.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NMETC.html">
+      <file leaf-file-name="MathETC.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MathETC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1136">
-              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="37400">
+              <caret line="2195" column="24" selection-start-line="2195" selection-start-column="24" selection-end-line="2195" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,14 +92,14 @@
         <option value="$PROJECT_DIR$/WRC.html" />
         <option value="$PROJECT_DIR$/css/WRC.css" />
         <option value="$PROJECT_DIR$/css/Resources.css" />
-        <option value="$PROJECT_DIR$/MathETC.html" />
-        <option value="$PROJECT_DIR$/MathDrop_In.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/Resources.html" />
         <option value="$PROJECT_DIR$/css/PASS.css" />
         <option value="$PROJECT_DIR$/PASS.html" />
         <option value="$PROJECT_DIR$/NMETC.html" />
+        <option value="$PROJECT_DIR$/MathDrop_In.html" />
+        <option value="$PROJECT_DIR$/MathETC.html" />
       </list>
     </option>
   </component>
@@ -362,7 +356,7 @@
       <workItem from="1492724103422" duration="9131000" />
       <workItem from="1492802100256" duration="1960000" />
       <workItem from="1493061525120" duration="7096000" />
-      <workItem from="1493152710170" duration="4849000" />
+      <workItem from="1493152710170" duration="5815000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -382,7 +376,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338992000" />
+    <option name="totallyTimeSpent" value="339958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -652,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MathDrop_In.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="93" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -687,16 +674,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MathETC.html">
+    <entry file="file://$PROJECT_DIR$/css/PASS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="78" column="807" selection-start-line="78" selection-start-column="807" selection-end-line="78" selection-end-column="807" />
+        <state relative-caret-position="197">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PASS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="850">
           <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -741,14 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/PASS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -759,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NMETC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1136">
+        <state relative-caret-position="442">
           <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -769,6 +749,22 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#1;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MathDrop_In.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MathETC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37400">
+          <caret line="2195" column="24" selection-start-line="2195" selection-start-column="24" selection-end-line="2195" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
