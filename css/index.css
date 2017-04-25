@@ -177,21 +177,6 @@ body {
     margin: 10px auto;
 }
 
-/* Callout */
-
-.callout {
-    display: table;
-    position: relative;
-    width: 90%;
-    height: 30%;
-    color: #ffffff;
-    background: url(../img/FrontDesk.png) no-repeat center center scroll ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 /* Call to Action */
 
 .call-to-action {
