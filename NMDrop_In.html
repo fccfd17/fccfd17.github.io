@@ -32,7 +32,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-
 <nav class="navbar navbar-inverse" data-spy="affix">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -45,28 +44,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Schedules
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#Accounting">Accounting</a></li>
-                        <li><a href="#Biology">Biology</a></li>
-                        <li><a href="#Chemistry">Chemistry</a></li>
-                        <li><a href="#ChDev">Child Development</a></li>
-                        <li><a href="#Chinese">Chinese</a></li>
-                        <li><a href="#Communication">Communication</a></li>
-                        <li><a href="#CIT">Computer Information Technology</a></li>
-                        <li><a href="#EST">Electrical Systems Technology</a></li>
-                        <li><a href="#French">French</a></li>
-                        <li><a href="#Japanese">Japanese</a></li>
-                        <li><a href="#Music">Music</a></li>
-                        <li><a href="#Physics">Physics</a></li>
-                        <li><a href="#Spanish">Spanish</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact Info.</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a data-toggle="pill" href="#Schedules">Schedules</a></li>
+                <li><a data-toggle="pill" href="#Tour">Tour</a></li>
+                <li><a data-toggle="pill" href="#Faculty">Faculty</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -76,15 +57,34 @@
     </div>
 </nav>
 
-<header id="Drop-In" class="header text-center">
+<header id="Drop-In" class="header text-center ">
     <div class="headerbox">
-        <h1>Drop-In:</h1>
-        <h2>Non-Math Sections</h2>
+        <h1>Drop-In</h1>
     </div>
 </header>
 
 <!-- Make sure for the following dynamic pill navs that the media div's do not wrap the tables or the tables will not be responsive to the containers causing off page scrolling. -->
+<div class="tab-content">
+<div id="Schedules" class="tab-pane fade in active">
+    <h1 class="headerbox container text-center">Eric Sanders - Tutorial Coordinator</h1>
+    <section class="container container-fluid">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-2">
+                        <img src="img/Math/heather.jpg" class="media-object img-rounded" style="width:150px">
+                    </div>
+                    <div class="col-lg-10">
+                        <p>Drop-In. </p>
+                        <p><strong>We realize that math can be intimidating to students, but we offer many FREE services to help alleviate math anxiety! We are here to help!</strong></p>
+                        <p><strong>Have a question or concern? Please contact me at </strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+<article class="containter container-fluid">
 <section class="container container-fluid">
     <div class="row">
             <div class="col-lg-12">
@@ -104,7 +104,7 @@
                                     <h3 class="text-center">Accounting 4A</h3>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Karla.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Karla Alvarado</h4>
@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Omar.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Omar Jaouhar</h4>
@@ -204,7 +204,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Fabiola.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Fabiola Ochoa</h4>
@@ -269,7 +269,7 @@
                                     <h3 class="text-center">Accounting 4B</h3>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Karla.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Karla Alvarado</h4>
@@ -319,7 +319,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Omar.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Omar Jaouhar</h4>
@@ -369,7 +369,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Fabiola.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Fabiola Ochoa</h4>
@@ -432,7 +432,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Omar.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Omar Jaouhar</h4>
@@ -548,7 +548,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tina.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tina Sagherian</h4>
@@ -648,7 +648,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -710,7 +710,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Gabriela.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Gabriela Gomez</h4>
@@ -810,7 +810,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tina.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tina Sagherian</h4>
@@ -910,7 +910,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -1022,7 +1022,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -1134,7 +1134,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -1196,7 +1196,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Gabriela.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Gabriela Gomez</h4>
@@ -1296,7 +1296,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tina.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tina Sagherian</h4>
@@ -1358,7 +1358,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -1408,7 +1408,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Gabriela.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Gabriela Gomez</h4>
@@ -1470,7 +1470,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Elisa.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Elisa Ulloa</h4>
@@ -1520,7 +1520,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Gabriela.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Gabriela Gomez</h4>
@@ -1586,7 +1586,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Stephanie.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Stephanie Cardenas</h4>
@@ -1685,7 +1685,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Ryan.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Ryan King</h4>
@@ -1735,7 +1735,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Andres.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Andres Ruvalcaba</h4>
@@ -1785,7 +1785,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Elisabette.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Elisabette Tapia</h4>
@@ -1885,7 +1885,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -1935,7 +1935,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -1997,7 +1997,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Stephanie.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Stephanie Cardenas</h4>
@@ -2097,7 +2097,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Ryan.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Ryan King</h4>
@@ -2147,7 +2147,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Andres.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Andres Ruvalcaba</h4>
@@ -2197,7 +2197,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Elisabette.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Elisabette Tapia</h4>
@@ -2297,7 +2297,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -2347,7 +2347,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -2409,7 +2409,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -2459,7 +2459,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -2521,7 +2521,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Stephanie.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Stephanie Cardenas</h4>
@@ -2571,7 +2571,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Ryan.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Ryan King</h4>
@@ -2621,7 +2621,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -2671,7 +2671,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -2733,7 +2733,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Ryan.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Ryan King</h4>
@@ -2783,7 +2783,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -2833,7 +2833,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -2895,7 +2895,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Ryan.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Ryan King</h4>
@@ -2945,7 +2945,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -2995,7 +2995,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -3057,7 +3057,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Kasey.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Kasey Bishop</h4>
@@ -3107,7 +3107,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Amin.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Amin Tavallaei</h4>
@@ -3159,8 +3159,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
         </div>
-    </div>
 </section>
 
 
@@ -3183,7 +3184,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Jessica.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Jessica Loyd</h4>
@@ -3252,7 +3253,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Chunmei.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Chunmei He</h4>
@@ -3319,7 +3320,7 @@
                                 <div class="panel-body">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                            <img src="img/DropIn/Daniel.jpg" class="media-object" style="width:150px">
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Daniel Soriano</h4>
@@ -3460,7 +3461,7 @@
                                     <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                                <img src="img/DropIn/Daniel.jpg" class="media-object" style="width:150px">
                                             </div>
                                             <div class="media-body">
                                                 <h4 class="media-heading">Daniel Soriano</h4>
@@ -3527,7 +3528,7 @@
                                     <div class="panel-body">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                                <img src="img/DropIn/Jennifer.jpg" class="media-object" style="width:150px">
                                             </div>
                                             <div class="media-body">
                                                 <h4 class="media-heading">Jennifer Velasco</h4>
@@ -3711,7 +3712,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Jahn.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Jahn Benedicto</h4>
@@ -3778,7 +3779,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Andrew.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Andrew Castillo</h4>
@@ -3845,7 +3846,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Aaron.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Aaron Cuevas</h4>
@@ -3895,7 +3896,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Matthew.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Matthew Cuevas</h4>
@@ -3995,7 +3996,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Zachariah.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Zachariah Rodriguez</h4>
@@ -4119,7 +4120,7 @@
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tania.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tania Castillo</h4>
@@ -4231,7 +4232,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tania.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tania Castillo</h4>
@@ -4343,7 +4344,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tania.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tania Castillo</h4>
@@ -4454,7 +4455,7 @@
                             <div class="panel-body">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="img/testimg.jpg" class="media-object" style="width:150px">
+                                        <img src="img/DropIn/Tania.jpg" class="media-object" style="width:150px">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Tania Castillo</h4>
@@ -4561,7 +4562,27 @@
             </div>
         </div>
 </section>
+</article>
+</div>
+<div id="Tour" class="tab-pane fade">
+    <p>Tour content.</p>
+</div>
+<div id="Faculty" class="tab-pane fade">
+    <p>Faculty content.</p>
+</div>
+</div>
 
+<footer>
+    <div class="container container fluid">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="index.html"><h3 class="text-center">Home Page</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
@@ -4624,15 +4645,5 @@
 
 </body>
 
-<footer>
-    <div class="container">
-        <div class="box">
-            <div class="row">
-                <div class="col-lg-12">
-                    <a href="index.html"><h3 class="text-center">Home Page</h3></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+
 </html>

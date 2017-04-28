@@ -17,6 +17,11 @@ body {
     background-attachment: fixed;
 }
 
+/* Navigation */
+.navbar-inverse {
+    background-color: #c1450b;
+    border-color: #c1450b;
+}
 
 .box{
     border: #E2510D solid;

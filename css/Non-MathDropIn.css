@@ -1,5 +1,4 @@
 html,
-
 header{
     display: block;
     margin: 30px auto;
@@ -13,29 +12,24 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color:  #caf7ca;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: #ac2925;
+/* Navigation */
+.navbar-inverse {
+    background-color: #458746;
+    border-color: #458746;
 }
-
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-    color: #ac2925;
-}
-
-/* Dynamic Pill Sections */
 
 .box{
-    background-color: #ffffff;
+    border: #67b168 solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin: 10px auto;
 }
 
 
@@ -111,57 +105,6 @@ body {
     background-color: #67b168;
 
 }
-
-/* About */
-
-.about {
-    padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-
-
 
 /* Footer */
 

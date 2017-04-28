@@ -15,7 +15,11 @@ body {
     background-color: #f7dad4;
 }
 
-
+/* Navigation */
+.navbar-inverse {
+    background-color: #ca6302;
+    border-color: #ca6302;
+}
 
 .box {
     border: #f77802 solid;

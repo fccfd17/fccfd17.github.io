@@ -17,22 +17,8 @@ body {
     background-attachment: fixed;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: #ac2925;
-}
-
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-    color: #ac2925;
-}
 .box{
-    border: #ff0000 solid;
+    border: #d60000 solid;
     border-top: 5px;
     border-left: 5px;
     border-radius: 20px;
@@ -44,7 +30,7 @@ body {
 }
 
 .headerbox{
-    background-color:#ff0000;
+    background-color:#d60000;
     border-radius: 25px;
     padding: 20px;
     color: white;

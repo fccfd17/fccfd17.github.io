@@ -75,6 +75,8 @@ body {
     top: 50px;
 
 }
+
+
 /* Header */
 
 .header {
@@ -116,48 +118,56 @@ body {
     background-color: #67b168;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .bluebox {
     background-color: #4286f4;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .darkredbox {
     background-color: #ac2925;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .aquabox {
     background-color: #2ecc9c;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .orangebox {
     background-color: #f77802;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .brightredbox {
-    background-color: #ff0000;
+    background-color: #d60000;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .rustorangebox {
     background-color: #E2510D;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .purplebox {
     background-color: #ac21f2;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
 
 .blackbox {
