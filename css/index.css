@@ -174,7 +174,9 @@ body {
     background-color: black;
     color: #ffffff;
     padding-bottom: 1px;
+    border-radius: 20px;
 }
+
 .box{
     border: black solid;
     border-top: 5px;
