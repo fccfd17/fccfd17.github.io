@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/MathETC/IMG_20170428_144035582_HDR (2).jpg" afterPath="$PROJECT_DIR$/img/MathETC/Sarah.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathETC.html" afterPath="$PROJECT_DIR$/MathETC.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.png" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -364,7 +361,7 @@
       <workItem from="1493402237666" duration="9104000" />
       <workItem from="1493493928179" duration="3107000" />
       <workItem from="1494285387092" duration="2342000" />
-      <workItem from="1494354957070" duration="4302000" />
+      <workItem from="1494354957070" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -384,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367229000" />
+    <option name="totallyTimeSpent" value="367384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
