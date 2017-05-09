@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources.html" afterPath="$PROJECT_DIR$/Resources.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="281" column="112" selection-start-line="281" selection-start-column="112" selection-end-line="281" selection-end-column="112" />
+            <state relative-caret-position="70">
+              <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="116" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WRC.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WRC.html">
+      <file leaf-file-name="Resources.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="459" column="103" selection-start-line="459" selection-start-column="103" selection-end-line="459" selection-end-column="103" />
+            <state relative-caret-position="358">
+              <caret line="737" column="67" selection-start-line="737" selection-start-column="67" selection-end-line="737" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -96,12 +97,12 @@
         <option value="$PROJECT_DIR$/css/WRC.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/NMDrop_In.html" />
-        <option value="$PROJECT_DIR$/Resources.html" />
         <option value="$PROJECT_DIR$/NMDropIn.html" />
         <option value="$PROJECT_DIR$/MathETC.html" />
         <option value="$PROJECT_DIR$/MathDropIn.html" />
         <option value="$PROJECT_DIR$/WRC.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Resources.html" />
       </list>
     </option>
   </component>
@@ -365,7 +366,7 @@
       <workItem from="1493493928179" duration="3107000" />
       <workItem from="1494285387092" duration="2342000" />
       <workItem from="1494354957070" duration="4878000" />
-      <workItem from="1494361143226" duration="2396000" />
+      <workItem from="1494361143226" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -385,10 +386,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370201000" />
+    <option name="totallyTimeSpent" value="370605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -675,13 +676,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="709" column="47" selection-start-line="709" selection-start-column="47" selection-end-line="709" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/MathETC/Sarah.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -731,8 +725,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="281" column="112" selection-start-line="281" selection-start-column="112" selection-end-line="281" selection-end-column="112" />
+        <state relative-caret-position="70">
+          <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="737" column="67" selection-start-line="737" selection-start-column="67" selection-end-line="737" selection-end-column="67" />
           <folding />
         </state>
       </provider>
