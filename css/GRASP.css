@@ -24,7 +24,16 @@ body {
 }
 
 .box{
-    background-color: #ffffff;
+    border: #2ecc9c solid;
+    border-top: 5px;
+    border-left: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .headerbox{

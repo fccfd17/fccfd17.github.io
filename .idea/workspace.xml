@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GRASP.html" afterPath="$PROJECT_DIR$/GRASP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathDropIn.html" afterPath="$PROJECT_DIR$/MathDropIn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathETC.html" afterPath="$PROJECT_DIR$/MathETC.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMDropIn.html" afterPath="$PROJECT_DIR$/NMDropIn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMETC.html" afterPath="$PROJECT_DIR$/NMETC.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources.html" afterPath="$PROJECT_DIR$/Resources.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WRC.html" afterPath="$PROJECT_DIR$/WRC.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/GRASP.css" afterPath="$PROJECT_DIR$/css/GRASP.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,22 +33,12 @@
     <favorites_list name="fccfd17.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WRC.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WRC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resources.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="737" column="67" selection-start-line="737" selection-start-column="67" selection-end-line="737" selection-end-column="67" />
+            <state relative-caret-position="379">
+              <caret line="1204" column="30" selection-start-line="1204" selection-start-column="30" selection-end-line="1204" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -79,17 +77,14 @@
         <option value="$PROJECT_DIR$/NMDrop-InV2.html" />
         <option value="$PROJECT_DIR$/Math ETC.html" />
         <option value="$PROJECT_DIR$/Math Drop-In.html" />
-        <option value="$PROJECT_DIR$/GRASP.html" />
         <option value="$PROJECT_DIR$/NetTutor.html" />
         <option value="$PROJECT_DIR$/css/MathETCCSS.css" />
         <option value="$PROJECT_DIR$/NMETCV2.html" />
         <option value="$PROJECT_DIR$/PASS.html" />
-        <option value="$PROJECT_DIR$/NMETC.html" />
         <option value="$PROJECT_DIR$/MathDrop_In.html" />
         <option value="$PROJECT_DIR$/css/PASS.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/Non-MathDropIn.css" />
-        <option value="$PROJECT_DIR$/css/GRASP.css" />
         <option value="$PROJECT_DIR$/css/MathDropIn.css" />
         <option value="$PROJECT_DIR$/css/MathETC.css" />
         <option value="$PROJECT_DIR$/css/NonMathETCCSS.css" />
@@ -97,12 +92,15 @@
         <option value="$PROJECT_DIR$/css/WRC.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/NMDrop_In.html" />
-        <option value="$PROJECT_DIR$/NMDropIn.html" />
+        <option value="$PROJECT_DIR$/GRASP.html" />
+        <option value="$PROJECT_DIR$/css/GRASP.css" />
         <option value="$PROJECT_DIR$/MathETC.html" />
-        <option value="$PROJECT_DIR$/MathDropIn.html" />
-        <option value="$PROJECT_DIR$/WRC.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Resources.html" />
+        <option value="$PROJECT_DIR$/NMDropIn.html" />
+        <option value="$PROJECT_DIR$/MathDropIn.html" />
+        <option value="$PROJECT_DIR$/NMETC.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/WRC.html" />
       </list>
     </option>
   </component>
@@ -163,20 +161,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fccfd17.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fccfd17.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -190,19 +174,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io" />
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\Math" />
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\CompLab" />
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\FrontDesk" />
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\MathETC" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\CompLab" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\ETCEdits" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\DropIn" />
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\CompLab" />
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\Math" />
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\FrontDesk" />
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\MathETC" />
     </key>
   </component>
   <component name="RunManager">
@@ -366,7 +350,8 @@
       <workItem from="1493493928179" duration="3107000" />
       <workItem from="1494285387092" duration="2342000" />
       <workItem from="1494354957070" duration="4878000" />
-      <workItem from="1494361143226" duration="2800000" />
+      <workItem from="1494361143226" duration="3395000" />
+      <workItem from="1494443048500" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -386,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370605000" />
+    <option name="totallyTimeSpent" value="375785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -591,38 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GRASP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/GRASP.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/MathETC.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/MathDropIn.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NMETC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -681,60 +638,91 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MathDropIn.html">
+    <entry file="file://$PROJECT_DIR$/PASS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5035" column="27" selection-start-line="5035" selection-start-column="26" selection-end-line="5035" selection-end-column="27" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="520">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/MathETC.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GRASP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/GRASP.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MathETC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="526" column="50" selection-start-line="526" selection-start-column="50" selection-end-line="526" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NMDropIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="78" column="587" selection-start-line="78" selection-start-column="587" selection-end-line="78" selection-end-column="587" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PASS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WRC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="459" column="103" selection-start-line="459" selection-start-column="103" selection-end-line="459" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="116" />
+        <state relative-caret-position="690">
+          <caret line="2197" column="802" selection-start-line="2197" selection-start-column="802" selection-end-line="2197" selection-end-column="802" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="737" column="67" selection-start-line="737" selection-start-column="67" selection-end-line="737" selection-end-column="67" />
+        <state relative-caret-position="294">
+          <caret line="912" column="89" selection-start-line="912" selection-start-column="89" selection-end-line="912" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMDropIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="79" column="172" selection-start-line="79" selection-start-column="172" selection-end-line="79" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMETC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="79" column="140" selection-start-line="79" selection-start-column="140" selection-end-line="79" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MathDropIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="81" column="179" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="179" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="260" column="26" selection-start-line="260" selection-start-column="26" selection-end-line="260" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WRC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="1204" column="30" selection-start-line="1204" selection-start-column="30" selection-end-line="1204" selection-end-column="30" />
           <folding />
         </state>
       </provider>
