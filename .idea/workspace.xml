@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="132c4cb4-2124-4b31-99ed-394415f22b9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GRASP.html" afterPath="$PROJECT_DIR$/GRASP.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathDropIn.html" afterPath="$PROJECT_DIR$/MathDropIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathETC.html" afterPath="$PROJECT_DIR$/MathETC.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMDropIn.html" afterPath="$PROJECT_DIR$/NMDropIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NMETC.html" afterPath="$PROJECT_DIR$/NMETC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources.html" afterPath="$PROJECT_DIR$/Resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WRC.html" afterPath="$PROJECT_DIR$/WRC.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/GRASP.css" afterPath="$PROJECT_DIR$/css/GRASP.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="fccfd17.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WRC.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WRC.html">
+      <file leaf-file-name="NMDropIn.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NMDropIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="1204" column="30" selection-start-line="1204" selection-start-column="30" selection-end-line="1204" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="4575" column="19" selection-start-line="4575" selection-start-column="19" selection-end-line="4575" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -96,11 +89,11 @@
         <option value="$PROJECT_DIR$/css/GRASP.css" />
         <option value="$PROJECT_DIR$/MathETC.html" />
         <option value="$PROJECT_DIR$/Resources.html" />
-        <option value="$PROJECT_DIR$/NMDropIn.html" />
-        <option value="$PROJECT_DIR$/MathDropIn.html" />
         <option value="$PROJECT_DIR$/NMETC.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/WRC.html" />
+        <option value="$PROJECT_DIR$/MathDropIn.html" />
+        <option value="$PROJECT_DIR$/NMDropIn.html" />
       </list>
     </option>
   </component>
@@ -142,7 +135,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,6 +155,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,9 +175,9 @@
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\ETCEdits" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\Math" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\DropIn" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\CompLab" />
-      <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\Math" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\FrontDesk" />
       <recent name="C:\Users\Eric\WebstormProjects\fccfd17.github.io\img\MathETC" />
     </key>
@@ -351,7 +344,11 @@
       <workItem from="1494285387092" duration="2342000" />
       <workItem from="1494354957070" duration="4878000" />
       <workItem from="1494361143226" duration="3395000" />
-      <workItem from="1494443048500" duration="4585000" />
+      <workItem from="1494443048500" duration="6081000" />
+      <workItem from="1494453111015" duration="1152000" />
+      <workItem from="1494533791453" duration="2491000" />
+      <workItem from="1494566656512" duration="728000" />
+      <workItem from="1494614590582" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading Current Files">
       <created>1487284701494</created>
@@ -371,7 +368,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375785000" />
+    <option name="totallyTimeSpent" value="383573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -547,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="3" column="15082" selection-start-line="3" selection-start-column="15078" selection-end-line="3" selection-end-column="15082" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -649,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="2197" column="802" selection-start-line="2197" selection-start-column="802" selection-end-line="2197" selection-end-column="802" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,15 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="912" column="89" selection-start-line="912" selection-start-column="89" selection-end-line="912" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NMDropIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="79" column="172" selection-start-line="79" selection-start-column="172" selection-end-line="79" selection-end-column="172" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,17 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="79" column="140" selection-start-line="79" selection-start-column="140" selection-end-line="79" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MathDropIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="81" column="179" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="179" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="260" column="26" selection-start-line="260" selection-start-column="26" selection-end-line="260" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,6 +688,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="1204" column="30" selection-start-line="1204" selection-start-column="30" selection-end-line="1204" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="3" column="15082" selection-start-line="3" selection-start-column="15078" selection-end-line="3" selection-end-column="15082" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MathDropIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="5088" column="9" selection-start-line="5038" selection-start-column="0" selection-end-line="5088" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NMDropIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="4575" column="19" selection-start-line="4575" selection-start-column="19" selection-end-line="4575" selection-end-column="19" />
           <folding />
         </state>
       </provider>
